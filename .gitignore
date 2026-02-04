@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Project Specific - Data and Uploads
+uploads/*
+!uploads/.gitkeep
+faiss_db/
+*.pdf
+temp_*
+
+# Configuration and Secrets
+#.env
+.env.local
+.env.shared
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Testing and Logs
+*.log
+logs/

@@ -1,0 +1,24 @@
+# Web Framework
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic>=2.0
+pydantic-settings
+
+# LangChain Ecosystem (Updated for 2025/26)
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-huggingface
+langchain-ollama
+
+# PDF Processing
+pypdf
+
+# Embeddings & Vector Store
+sentence-transformers
+faiss-cpu
+
+# Utilities
+python-dotenv
